@@ -1,9 +1,5 @@
 package com.qspiders.demo1;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
@@ -15,6 +11,6 @@ public class App
         	System.out.println("Driver loaded");
         	
         	} catch (ClassNotFoundException e) {
-        	}
+        }
     }
 }
