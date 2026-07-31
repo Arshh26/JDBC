@@ -30,17 +30,19 @@ public class App {
             PreparedStatement ps = con.prepareStatement(insertQuery);
 
             // Insert First Record
-            ps.setInt(1, 107);
-            ps.setString(2, "Rehman");
-            ps.setString(3, "rehman@gmail.com");
+//            ps.setInt(1, 107);
+//            ps.setString(2, "Rehman");
+//            ps.setString(3, "rehman@gmail.com");
+            
+            
 
             int rows = ps.executeUpdate();
             System.out.println(rows + " row inserted.");
 
             // Insert Second Record
-            ps.setInt(1, 108);
-            ps.setString(2, "Hafiz");
-            ps.setString(3, "hafiz@gmail.com");
+//            ps.setInt(1, 108);
+//            ps.setString(2, "Hafiz");
+//            ps.setString(3, "hafiz@gmail.com");
 
             rows = ps.executeUpdate();
             System.out.println(rows + " row inserted.");
