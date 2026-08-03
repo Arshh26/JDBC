@@ -20,6 +20,7 @@ public class jdbcDemo1 {
                     "jdbc:postgresql://localhost:5432/school",
                     "postgres",
                     "123");
+            System.out.println("Connection Established successfully");
 
             System.out.println("Connection Established Successfully");
 
