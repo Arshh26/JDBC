@@ -5,7 +5,9 @@ public class Employee {
 	private String employeeName;
 	private String role;
 	
-	
+	public Employee() {
+		
+	}
 	
 	public Employee(int id, String employeeName, String role) {
 		super();
