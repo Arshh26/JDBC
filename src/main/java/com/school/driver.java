@@ -67,7 +67,7 @@ public class driver {
 				break;
 				
 			default:
-				System.out.println("Please choise a valid value");
+				System.out.println("Please choose a valid value");
 				break;
 			}
 		}
